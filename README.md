@@ -52,7 +52,7 @@ After ending a card, new cards can be started by using one of the start-patterns
 ```
 Dear Jane and John,
 
-For our project we should implement the following feature:
+We should implement the following feature for our project:
 <todo>
 title1
 content1
