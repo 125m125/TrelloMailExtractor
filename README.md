@@ -35,37 +35,40 @@ Labels and members can be added as described in http://help.trello.com/article/8
 ### Start a new card
 To start a new card, the following text can be used:
 - todo
-- <todo>
+- \<todo\>
 - todostart
-- <todostart>
+- \<todostart\>
+
 The next line after encountering one of these texts is used as the title for the card. Lines after the title are used for the content. When encountering an empty line or a line that contains one of the patterns above, the current card is terminated and a new card started.
 ### Ending cards
 To end cards, the following text can be used:
 - todoend
-- </todo>
-- </todostart>
+- \</todo\>
+- \</todostart\>
 - endtodo
+
 After ending a card, new cards can be started by using one of the start-patterns again. Empty lines terminate one card and start a new card at the same time.
 ### Example email
 ```
 Dear Jane and Jon,
 
-here are some todos for our next meeting:
+For our project we should implement the following feature:
 <todo>
-title1 #meeting
+title1
 content1
 </todo>
+
+And please remember the following points for out meeting:
 todo
 title2 #meeting
-content2
 
 title3 #meeting
 content3
 todoend
-Here is some more text that should not be added as a card.
+
+Jon, you still have my USB stick
 todo
-title4 @Jon
-content4 Please remember to bring food
+bring Richard's USB stick @Jon
 todoend
 
 Best regards,
