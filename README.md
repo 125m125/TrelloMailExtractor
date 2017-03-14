@@ -50,7 +50,7 @@ To end cards, the following text can be used:
 After ending a card, new cards can be started by using one of the start-patterns again. Empty lines terminate one card and start a new card at the same time.
 ### Example email
 ```
-Dear Jane and Jon,
+Dear Jane and John,
 
 For our project we should implement the following feature:
 <todo>
@@ -66,9 +66,9 @@ title3 #meeting
 content3
 todoend
 
-Jon, you still have my USB stick
+John, you still have my USB stick
 todo
-bring Richard's USB stick @Jon
+bring Richard's USB stick @John
 todoend
 
 Best regards,
