@@ -1,0 +1,7 @@
+target/
+lastCheck.txt
+.classpath
+.settings/
+.project
+
+config.properties
